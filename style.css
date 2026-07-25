@@ -640,11 +640,11 @@
 
   /* ---------- Quote strip ---------- */
   .quote-strip{
-    background:var(--white); text-align:center; padding:60px 5%;
+    background:var(--white); text-align:center; padding:5px 0%;
     border-top:1px solid var(--line); border-bottom:1px solid var(--line);
   }
   .quote-strip p{
-    font-family:'Oswald', sans-serif; font-size:clamp(1.3rem,3vw,1.9rem);
+    font-family:'Oswald', sans-serif; font-size:clamp(0.3rem,3vw,1.9rem);
     color:var(--navy); text-transform:uppercase; letter-spacing:0.03em;
   }
   .quote-strip p span{color:var(--orange);}
@@ -652,23 +652,23 @@
   /* ---------- Contact / Footer ---------- */
   /* Contact Section */
 .contact{
-    padding:50px 7%;
+    padding:40px 6%;
     background:#fff;
 }
 
 .contact .section-head{
     text-align:center;
     max-width:650px;
-    margin:0 auto 35px;
+    margin:0 auto 30px;
 }
 
 .contact .section-head h2{
     font-size:2.2rem;
-    margin:10px 0;
+    margin:5px 0;
 }
 
 .contact .section-head p{
-    font-size:15px;
+    font-size:10px;
     line-height:1.6;
     color:#666;
 }
@@ -676,7 +676,7 @@
 .contact-container{
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:35px;
+    gap:30px;
     align-items:start;
 }
 
@@ -685,7 +685,7 @@
 .contact-form form{
     display:flex;
     flex-direction:column;
-    gap:15px;
+    gap:13px;
 }
 
 .input-box label{
@@ -735,6 +735,7 @@
 .contact-info h3{
     font-size:2rem;
     margin:10px 0 15px;
+    
 }
 
 .contact-info p{
