@@ -319,26 +319,25 @@
         <div class="contact-form">
 
             <form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="6a2f87d0-fdb1-4198-91b7-0b9918b80fe5">
-
+  <input type="hidden" name="access_key" value="105c9b1b-21a3-45db-bb29-7c2cd6b37c93">
                 <div class="input-box">
                     <label>Your Name</label>
-                    <input type="text" placeholder="Full Name">
+                    <input type="text" name="name"Full Name">
                 </div>
 
                 <div class="input-box">
                     <label>Your Email</label>
-                    <input type="email" placeholder="sa5749955@gmail.com">
+                    <input type="email" name="email" placeholder="lima686859@gmail.com">
                 </div>
 
                 <div class="input-box">
                     <label>Phone Number</label>
-                    <input type="text" placeholder="+971">
+                    <input type="text" name="phone" placeholder="+971">
                 </div>
 
                 <div class="input-box">
                     <label>Your Message</label>
-                    <textarea rows="6"
+                    <textarea name="message" rows="6"
                         placeholder="Write your message..."></textarea>
                 </div>
 
@@ -425,6 +424,8 @@
   const nav = document.getElementById('nav');
   toggle.addEventListener('click', () => nav.classList.toggle('open'));
   nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+
+  
 </script>
 
 </body>
